@@ -26,5 +26,6 @@ export default createGlobalStyle`
         --channel-data-bg: #0B141A;
         --white: #fff;
         --light-gray: #8696A0;
+        --border-channel-list:#222D34;
     }
 `;
