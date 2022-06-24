@@ -1,0 +1,9 @@
+import styled from 'styled-components';
+
+export const Container = styled.div`
+    grid-area:CI;
+
+    background-color: var(--primary);
+
+`;
+
