@@ -4,6 +4,7 @@ export default createGlobalStyle`
     *{
         margin: 0;
         padding: 0;
+        font-family:"Roboto",sans-serif;
     }
 
     html, body, #root {
@@ -23,5 +24,7 @@ export default createGlobalStyle`
         --avatar:#D9D9D9;
         --notification-bg: #182229;
         --channel-data-bg: #0B141A;
+        --white: #fff;
+        --light-gray: #8696A0;
     }
 `;
