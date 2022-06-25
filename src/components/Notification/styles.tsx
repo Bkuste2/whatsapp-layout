@@ -11,6 +11,10 @@ export const Container = styled.div`
     padding:22px 14px;
 
     background-color: var(--notification-bg);
+
+    &:hover{
+        cursor:pointer;
+    }
 `;
 
 export const Labels = styled.div`
@@ -32,6 +36,10 @@ export const Subtitle = styled.div`
     margin-top:4px;
     display:flex;
     align-items:center;
+
+    &:hover{
+        text-decoration:underline;
+    }
 `;
 
 export const ArrowRight = styled(HiChevronRight)`

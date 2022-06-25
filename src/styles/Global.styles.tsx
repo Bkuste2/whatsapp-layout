@@ -27,5 +27,6 @@ export default createGlobalStyle`
         --white: #fff;
         --light-gray: #8696A0;
         --border-channel-list:#222D34;
+        --CMI:#202c33;
     }
 `;

@@ -10,7 +10,7 @@ const SearchChat: React.FC<Props> = ({label}) => {
   return (
       <Container>
         <Icon />
-        {label}
+        <input type="text" placeholder={label} />
       </Container>
   )
 }

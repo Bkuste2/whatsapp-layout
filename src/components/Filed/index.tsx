@@ -7,7 +7,7 @@ const Filed: React.FC = () => {
   return (
       <Container>
         <FiledIcon>
-          <img src={ArchiveIcon } alt="" />
+          <img src={ArchiveIcon} alt="" />
         </FiledIcon> Arquivadas
       </Container>
   )

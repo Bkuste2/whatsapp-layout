@@ -14,12 +14,27 @@ export const Container = styled.div`
     padding: 0 16px;
     border-radius:8px;
 
-    color:var(--light-gray);
+    color: #d1d7db;
     font-size:14px;
     font-weight:200;
+
+    & > input {
+        height:100%;
+        width:100%;
+        background:transparent;
+        color: #d1d7db;
+        font-size:15px;
+    }
+
+    & > input::placeholder {
+        color: var(--light-gray);
+      }
 `;
 
 export const Icon = styled(GoSearch)`
     margin-right:39px;
+    &:hover{
+        cursor:pointer;
+    }
 `;
 

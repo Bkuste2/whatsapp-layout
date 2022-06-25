@@ -18,6 +18,10 @@ export const Avatar = styled.div`
     
     border-radius:50%;
     background-color: var(--avatar);
+
+    &:hover{
+        cursor:pointer;
+    }
 `;
 
 export const Icons = styled.div`
@@ -25,22 +29,38 @@ export const Icons = styled.div`
     align-items:center;
     justify-content:space-between;
     width:22%;
+
+    & > img:hover{
+        cursor:pointer;
+    }
 `;
 
 export const StatusIcon = styled.div`
     width:21px;
     height:21px;
+
+    &:hover{
+        cursor:pointer;
+    }
 `;
 
 export const NewChatIcon = styled(MdMessage)`
     width:21px;
     height:21px;
     color: var(--white);
-    `;
+
+    &:hover{
+        cursor:pointer;
+    }
+`;
 
 export const MoreOptionsIcon = styled(MdMoreVert)`
     width:23px;
     height:23px;
     color: var(--white);
+
+    &:hover{
+        cursor:pointer;
+    }
 `;
 
