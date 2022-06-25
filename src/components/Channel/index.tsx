@@ -11,6 +11,7 @@ export interface Props {
 }
 
 const Channel: React.FC<Props> = ({name, message,fixed, time, avatar}) => {
+  
   return (
     <Container>
         <Avatar />
@@ -30,6 +31,7 @@ const Channel: React.FC<Props> = ({name, message,fixed, time, avatar}) => {
             
             <IconsGroup>
               {fixed ? <IconFixed /> : ''}
+              <IconArrow className='arrow'/>
             </IconsGroup>
           </RightGroup>
         </ContentGroup>

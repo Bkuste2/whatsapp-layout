@@ -77,5 +77,9 @@ export const IconArrow = styled(IoIosArrowDown)`
     width:20px;
     height:20px;
     display:none;
+
+    &.active{
+        display:block;
+    } 
 `;
 
