@@ -32,7 +32,7 @@ const Channel: React.FC<Props> = ({name, message,fixed, time, avatar, notificati
             
             <IconsGroup>
               {fixed ? <IconFixed /> : ''}
-              {notification ? <Notification>{notification}</Notification> : ''}
+              {notification ? <Notification>{notification}</Notification> : '' }
               <IconArrow className='arrow'/>
             </IconsGroup>
           </RightGroup>
