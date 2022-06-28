@@ -28,5 +28,7 @@ export default createGlobalStyle`
         --light-gray: #8696A0;
         --border-channel-list:#222D34;
         --CMI:#202c33;
+        --inputCD: #2A3942;
+        --border:#1E292F;
     }
 `;

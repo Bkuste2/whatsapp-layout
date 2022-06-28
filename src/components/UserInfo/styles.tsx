@@ -4,24 +4,25 @@ import { MdMessage, MdMoreVert } from 'react-icons/md'
 export const Container = styled.div`
     grid-area:UI;
 
+    padding: 9px 35px 9px 14px ;
+    background-color: var(--primary);
+    border-right: 0.2px solid rgba(134,150,160,0.15);
 
     display:flex;
     align-items:center;
     justify-content:space-between;
-    background-color: var(--primary);
-    padding: 9px 35px 9px 14px ;
 `;
 
 export const Avatar = styled.div`
-    width:42px;
-    height:42px;
-    
-    border-radius:50%;
-    background-color: var(--avatar);
+        width:42px;
+        height:42px;
+        
+        border-radius:50%;
+        background-color: var(--avatar);
 
-    &:hover{
-        cursor:pointer;
-    }
+        &:hover{
+            cursor:pointer;
+        }
 `;
 
 export const Icons = styled.div`

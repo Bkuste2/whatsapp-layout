@@ -1,11 +1,20 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Container, Icons, SmileIcon, ClipIcon, MicIcon } from './styles';
+import Fundo from '../../imgs/fundo.jpg'
 
 const ChannelMessageInput: React.FC = () => {
   return (
       <Container>
-        asdadasdsa
+        <div className="left">
+          <Icons>
+            <SmileIcon />
+            <ClipIcon />
+          </Icons>
+        
+          <input type="text" placeholder='Mensagem'/>
+        </div>
+        <MicIcon />
       </Container>
   )
 }

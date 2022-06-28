@@ -21,5 +21,6 @@ export const Grid = styled.div`
     ;
 
     height: 100vh;
+    width: 100vw;
 `;
 

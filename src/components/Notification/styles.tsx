@@ -11,6 +11,7 @@ export const Container = styled.div`
     padding:22px 14px;
 
     background-color: var(--notification-bg);
+    border-right: 0.2px solid var(--border);
 
     &:hover{
         cursor:pointer;

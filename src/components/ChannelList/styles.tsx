@@ -6,6 +6,8 @@ export const Container = styled.div`
     background-color:var(--secondary);
     overflow:hidden;
     padding-bottom:8.4%;
+
+    border-right: 0.2px solid var(--border);
 `;
 
 export const FullLine = styled.div`
