@@ -19,8 +19,8 @@ const ChannelList: React.FC = () => {
           <Channel name='Wizeup' message='Chat finalizado às 16:34:20'/>
           <Channel name='Kart dos Amigos' message='+55 48 9963-0501: 👏🏻👏🏻👏🏻👏🏻'/>
           <Channel name='Projeto Primo Rico' message='Brunão: https://www.youtube.com/channel/UCbEZSVNL-gJZXfytO-9kwlA   asdfdsafsdfssfad'/>
-          <Channel name='Escolhe nome ai' message='Ismael: Bele'/>
-          <Channel name='Escolhe nome ai' message='Ismael: Bele'/>
+          <Channel name='Escolhe nome ai' message='Ismael: Bele' fixed notification="41"/>
+          <Channel name='Escolhe nome ai' message='Ismael: Bele' />
           <Channel name='Escolhe nome ai' message='Ismael: Bele'/>
           <Channel name='Escolhe nome ai' message='Ismael: Bele'/>
           <Channel name='Mãe' message='Vai limpar o mundo inteiro SIM!'/>

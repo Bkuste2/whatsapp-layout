@@ -1,16 +1,17 @@
 import React from 'react';
 
-import { Container, Avatar, Name, Message, TextGroup, ContentGroup,RightGroup, Time, IconsGroup, IconFixed, IconArrow } from './styles';
+import { Container, Avatar, Name, Message, TextGroup, ContentGroup,RightGroup, Time, IconsGroup, IconFixed, IconArrow, Notification } from './styles';
 
 export interface Props {
   name: string;
   message?: string;
   fixed?: boolean;
+  notification?: string;
   time?: string;
   avatar?: string;
 }
 
-const Channel: React.FC<Props> = ({name, message,fixed, time, avatar}) => {
+const Channel: React.FC<Props> = ({name, message,fixed, time, avatar, notification}) => {
   
   return (
     <Container>
@@ -31,6 +32,7 @@ const Channel: React.FC<Props> = ({name, message,fixed, time, avatar}) => {
             
             <IconsGroup>
               {fixed ? <IconFixed /> : ''}
+              {notification ? <Notification>{notification}</Notification> : ''}
               <IconArrow className='arrow'/>
             </IconsGroup>
           </RightGroup>

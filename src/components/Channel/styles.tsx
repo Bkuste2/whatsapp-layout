@@ -66,11 +66,12 @@ export const Time = styled.div`
 export const IconsGroup = styled.div`
     margin-top:6px;
     display:flex;
+    align-items:center;
 `;
 
 export const IconFixed = styled(BsPinAngleFill)`
-    width:15px;
-    height:15px;
+    width:18px;
+    height:18px;
 `;
 
 export const IconArrow = styled(IoIosArrowDown)`
@@ -83,3 +84,20 @@ export const IconArrow = styled(IoIosArrowDown)`
     } 
 `;
 
+export const Notification = styled.div`
+    width:21px;
+    height:21px;
+    background-color:#00A884;
+
+    border-radius:50%;
+    margin-left:3px;
+ 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:13px;
+    font-weight:bold;
+    color:#000;
+
+`;
